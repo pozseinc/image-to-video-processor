@@ -1,0 +1,11 @@
+# nixpacks.toml
+
+[nix]
+pkgs = [
+  "ffmpeg",
+  "pkg-config",
+  "mesa",
+  "libGL",
+  "libSM",
+  "libXext"
+]
