@@ -1,11 +1,19 @@
 """
-FastAPI Image + Audio to Video API
+# FastAPI Image & Audio to Video API
 
-This API combines an image and audio file from URLs into a video.
+This API creates a video by merging an image and an audio file from provided URLs.
 
-Requirements:
-pip install fastapi uvicorn moviepy requests Pillow python-multipart
+## Requirements
 
-Usage:
+Install dependencies using the requirements file:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+```bash
 uvicorn main:app --host 0.0.0.0 --port 8000
+```
 """
