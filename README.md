@@ -1,5 +1,5 @@
-"""
-# FastAPI Image & Audio to Video API
+
+# Image & Audio to Video API
 
 This API creates a video by merging an image and an audio file from provided URLs.
 
@@ -16,4 +16,3 @@ pip install -r requirements.txt
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 8000
 ```
-"""
